@@ -1,0 +1,13 @@
+{
+  "domain": "aprs",
+  "name": "APRS",
+  "after_dependencies": ["assist_pipeline", "intent"],
+  "codeowners": ["@black-roland"],
+  "documentation": "https://github.com/black-roland/homeassistant-aprs",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/black-roland/homeassistant-aprs/issues",
+  "loggers": ["aprs", "aprslib"],
+  "requirements": ["aprslib==0.7.2"],
+  "version": "0.1.0"
+}
