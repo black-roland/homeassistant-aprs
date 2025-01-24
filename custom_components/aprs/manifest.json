@@ -3,6 +3,7 @@
   "name": "APRS",
   "after_dependencies": ["assist_pipeline", "intent"],
   "codeowners": ["@black-roland"],
+  "config_flow": true,
   "documentation": "https://github.com/black-roland/homeassistant-aprs",
   "integration_type": "service",
   "iot_class": "cloud_push",
